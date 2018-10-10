@@ -1,15 +1,17 @@
+@import '_vars';
+
 @font-face {
     font-family: 'walkway_boldregular';
-    src: url('walkway_bold-webfont.woff2') format('woff2'),
-         url('walkway_bold-webfont.woff') format('woff');
+    src: url('../fonts/walkway_bold-webfont.woff2') format('woff2'),
+         url('../fonts/walkway_bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'walkway_roundedregular';
-    src: url('walkway_rounded-webfont.woff2') format('woff2'),
-         url('walkway_rounded-webfont.woff') format('woff');
+    src: url('../fonts/walkway_rounded-webfont.woff2') format('woff2'),
+         url('../fonts/walkway_rounded-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -21,3 +23,115 @@
     font-weight: normal;
     font-style: normal;
 }
+
+@media screen and (max-width:  750px){
+    .row{
+margin-left: 0%;
+margin-right: 0%;
+    }
+
+}
+
+//menu
+
+#menuContainer{
+    background-color: white;
+    padding: 0;
+    font-family: Helvetica;
+    font-size: 14px;
+}
+
+#menuContainer a{
+    color: black;
+}
+
+#menuContainer a:hover{
+    color: black;
+}
+
+.menu li{
+	background-color: white;
+}
+
+.menu ul{
+	background-color: white;
+}
+
+.menu-icon {
+    color: #000000;
+}
+
+/*.menu a{
+	color: $color-menu;
+	font-size: 14px;
+	font-family: 'neoubold';
+}
+
+.menu a:hover{
+	color: #fcc219;
+}*/
+
+.top-bar-right{
+    background-color: white;
+    width: 100%;
+    padding: 1.5%;
+	/*margin-top: 3%;
+	margin-bottom: 3%;*/
+}
+
+@media screen and (max-width: 750px){
+    .top-bar-right{
+        margin-top:0%;
+        position: absolute;
+    }
+    .top-bar-right ul{
+        display: inline-block;
+    }
+    .top-bar-right li{
+        padding-top:2px;
+    }
+    .title-bar{
+        background-color: white;
+        width: 100%;
+        padding-bottom: 4%;
+        padding-top: 4%;
+        padding-left: 4%;
+    }
+}
+
+@media screen and (min-width: 750px){
+    .title-bar{
+        background-color: white;
+        width: 100%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+}
+
+@media screen and (min-width:  750px){
+    #menuText{
+        margin-left: 2%;
+        margin-top: 13px;
+    }
+}
+
+#mobileLogo{
+    margin-left: 30%;
+    width: 150px;
+}
+
+
+#footerMobileLogo{
+    width: 150px;
+    padding-bottom: 20px;
+}
+
+#footerBox {
+   margin-top: 30px; 
+   margin-bottom: 20px; 
+}
+
+#socialMedia {
+    margin-top: -12px;
+}
+
