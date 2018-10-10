@@ -20,15 +20,12 @@ desktopimages: images used for desktop broswer.
 descrption: We make our database like this because for the images, we may not reuse them, So we just put them togather.
 
 tb2_font, tb2_color, tb2_background:
-For this 3 sheets, they are used for our website includes font, color and background color. We may reuse them, so we just put them separately in order to use them in the futher or 
-update them easily.
+For this 3 sheets, they are used for our website includes font, color and background color. We may reuse them, so we just put them separately in order to use them in the futher or update them easily.
 
 tb2_font_color_background:
-another linking database. This is made for a easier way to do searching. For the part of homepage_id, the idea is we can add id of other pages to this sheet and link to that page,
-so the name of homepage is not shown in the name of this sheet, because it can be like "aboutus_id" or "contactus_id".
-And we don't need to show the font, color or background to our users, so we don't make a php file for it.
+another linking database. This is made for a easier way to do searching. For the part of homepage_id, the idea is we can add id of other pages to this sheet and link to that page, so the name of homepage is not shown in the name of this sheet, because it can be like "aboutus_id" or "contactus_id". And we don't need to show the font, color or background to our users, so we don't make a php file for it.
 
 Fetch javascript:
-For this javascript, we didn't make any change, we know it is used for grab things from our product's sheet and show them to users. When we open the heml file, we need to put
-localhost/midterm/index.html in the URL then we can see the list. It assumes that we have a server named localhost and make it like a real website.
+For this javascript, we didn't make any change, we know it is used for grab things from our product's sheet and show them to users. When we open the html file, we need to put localhost/midterm/index.html in the URL then we can see the list. It assumes that we have a server named localhost and make it like a real website.
+And we made a product.html for showing it.
 
