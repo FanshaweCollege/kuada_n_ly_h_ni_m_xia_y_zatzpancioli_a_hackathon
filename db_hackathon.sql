@@ -181,7 +181,7 @@ CREATE TABLE IF NOT EXISTS `tbl_product` (
 --
 
 INSERT INTO `tbl_product` (`ID`, `product_name`, `product_price`, `product_description`, `product_mobileimage`, `product_desktopimage`) VALUES
-(1, 'ThermoSecure_regular', '$350', 'HouseCom™ ThermoSecure™ System is a fully digital, hardwired and wireless (WiFi, Bluetooth) enabled home personal and secure environment control system. \r\nwidth: 305cm\r\nheight:108cm\r\n', '', 'desktop_banner1.jpg'),
+(1, 'ThermoSecure_regular', '$350', 'HouseCom™ ThermoSecure™ System is a fully digital, hardwired and wireless (WiFi, Bluetooth) enabled home personal and secure environment control system. \r\nwidth: 305cm\r\nheight:108cm\r\n', 'thermostat.jpg', 'thermostat_desktop.jpg.jpg'),
 (2, 'ThermoSecure_mobile', '$270', 'HouseCom™ ThermoSecure™ System is a fully digital, hardwired and wireless (WiFi, Bluetooth) enabled home personal and secure environment control system. \r\nwidth: 183cm\r\nheight:64cm\r\n', '', '');
 
 -- --------------------------------------------------------
