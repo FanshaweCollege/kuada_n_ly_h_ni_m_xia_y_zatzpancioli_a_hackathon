@@ -1,4 +1,0 @@
-$(document).foundation()
-
-1
-
