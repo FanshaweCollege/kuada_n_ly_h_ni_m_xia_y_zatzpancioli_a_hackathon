@@ -14,22 +14,33 @@
 
 @font-face {
   font-family: 'walkway_semiboldregular';
-  src: url("walkway_semibold-webfont.woff2") format("woff2"), url("walkway_semibold-webfont.woff") format("woff");
+  src: url("../fonts/walkway_semibold-webfont.woff2") format("woff2"), url("../fonts/walkway_semibold-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
-@media screen and (max-width: 750px) {
-  .row {
-    margin-left: 0%;
-    margin-right: 0%;
-  }
+@font-face {
+  font-family: 'robotolight';
+  src: url("../fonts/roboto-light-webfont.woff2") format("woff2"), url("../fonts/roboto-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'robotomedium';
+  src: url("../fonts/roboto-medium-webfont.woff2") format("woff2"), url("../fonts/roboto-medium-webfont.woff2") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+p {
+  color: #2D2D2D;
 }
 
 #menuContainer {
   background-color: white;
   padding: 0;
-  font-family: Helvetica;
+  font-family: 'robotolight';
   font-size: 14px;
 }
 
@@ -123,5 +134,55 @@
 
 #socialMedia {
   margin-top: -12px;
+}
+
+#textBanner {
+  background-color: #D4B596;
+  font-family: 'robotomedium';
+  font-size: 22px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.bannerBox {
+  margin: 0;
+  padding: 0;
+}
+
+#icons {
+  margin-top: 30px;
+}
+
+.iconsBox {
+  margin: 0;
+  padding: 12px;
+}
+
+#icons img {
+  width: 70%;
+}
+
+#icons p {
+  font-size: 13px;
+}
+
+#banner1 {
+  margin-bottom: 20px;
+}
+
+#textBanner {
+  margin-bottom: 20px;
+}
+
+#thermo {
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 750px) {
+  #icons img {
+    width: 100%;
+    margin-top: 50px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
